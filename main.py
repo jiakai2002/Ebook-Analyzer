@@ -56,8 +56,8 @@ def get_stats(word_freq):
     print("Vocabulary range:", vocab_range, "\n")
     print("Word count:", word_count, "\n")
     print("Top 10 words:\n")
-    for i in range(1, 11):
-        word = sorted_word_freq[i - 1]
+    for i in range(10):
+        word = sorted_word_freq[i]
         freq = word_freq[word]
         print(i, ")", word, "=", freq)
 
